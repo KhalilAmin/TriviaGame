@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/hypnotize.png");
+    background: cover;
+}
+
+.gamebody {
+    background-color: yellow;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
