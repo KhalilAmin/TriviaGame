@@ -1,29 +1,18 @@
-setInterval(timer(), 1000);
+var time = 25;
 
-
-
-function timer() { 
-    var time = 5;
+var timerfunc = setInterval(function timer() {
     if (time > 0){
         time--;
-        console.log(time);
+        document.getElementById("timerSeconds").innerHTML = time;
     } else {
         alert("Game Over");
         stopTimer();
     }
-};
+}, 1000);
+
+
 
 function stopTimer(){
-    clearInterval(timer);
+    clearInterval(timerfunc);
 };
 
-
-
-
-// function timer(){
-//     if (time > 0){
-//         time--;
-//         return time;
-//     }
-//     else {alert("Game Over")};
-// }
