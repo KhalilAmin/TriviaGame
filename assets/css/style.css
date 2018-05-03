@@ -5,6 +5,7 @@ body {
 
 .gamebody {
     background-color: yellow;
+    padding-bottom: 20px;
     max-width: 90%;
     margin: auto;
     text-align: center;
